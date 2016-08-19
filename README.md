@@ -23,8 +23,8 @@ The regularly scheduled office hours listed above are subject to change.
 Changes will be announced during lecture. It is helpful (but not required) to
 <a href="mailto:williamdemeo@gmail.com?subject=MATH 321:
  office hours&amp;body=Dear Dr. DeMeo, I plan to attend your office
-hours this week on (fill in day/time).  Sincerely, (your full name)">send me an email</a>
-in advance to let me know when you plan to visit.
+hours this week on (fill in day/time).  Sincerely, (your full name)">send an email</a>
+in advance to let the instructor know when you plan to visit.
 
 --------------------------------------------------------------------
 
@@ -32,23 +32,21 @@ in advance to let me know when you plan to visit.
 - [Introduction](#introduction)
 - [Class Meeting Times](#class-meeting-times)
 - [Overview, Prerequisites, Outcomes](#overview-prerequisites-outcomes)
+- [Writing Intensive Apsects of the Course](#writing-intensive-apsects-of-the-course)
 - [Textbook Information](#textbook-information)
+- [Grading Policy](#grading-policy)
 - [Exams](#exams)
 - [Homework](#homework)
-- [Computer Lab](#computer-lab)
 - [Make-up Policy](#make-up-policy)
-- [Grading Policy](#grading-policy)
 - [Attendance](#attendance)
 - [Asking Questions](#asking-questions)
 - [Email Policy](#email-policy)
-- [Use of Electronics During Lecture](#use-of-electronics-during-lecture)
-- [Academic Honesty](#academic-honesty)
-- [Classroom Policy](#classroom-policy)
+- [Classroom Policy and Code of Conduct](#classroom-policy-and-code-of-conduct)
 - [Students With Disabilities](#students-with-disabilities)
-- [Course Objectives](#course-objectives)
 - [Additional Resources](#additional-resources)
 
 ---------------------------------
+
 
 Introduction
 ------------
@@ -64,9 +62,36 @@ Please bookmark this page or, better yet,
  https://github.com/williamdemeo/Math321-Spring2016">click here</a> to email the url of this
  page to yourself!
 
-Class Meeting Times
--------------------
+
+
+Class Meeting Times and Attendance Policy
+-----------------------------------------
 **Lecture:** MWF 1:30--2:20pm Keller 403
+
+Students are expected to attend all classes.
+A grade penalty will be exacted if you have an excessive number of absences
+(whether excused or unexcused).
+Specifically, you are permitted (but strongly discouraged from taking) **seven**
+absences in total, and you must
+<a href="mailto:williamdemeo@gmail.com?subject=MATH 317:
+(fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">email
+the instructor</a>
+if/when you must miss a class.
+Each additional absence, and any absence not mentioned to the instructor,
+may result in the deduction of points from your final grade.
+
+Occasionally attendance will be recorded by passing around a sign-in
+sheet on which you will print and sign your own name. If another student asks
+you to sign in for them, don't do it! Forging another student's signature
+constitutes a violation of the student code of conduct and will be referred to
+the UH Office of Judicial Affairs.
+
+**Important:** If you plan to leave before class is over, the correct procedure is to mention
+this to the professor before the start of class. It is impolite and disruptive
+to your classmates to leave, or even pack up your belongings, before the lecture
+is over.
+
+
 
 Overview, Prerequisites, Outcomes
 ---------------------------------
@@ -77,8 +102,7 @@ functions, methods of proof and axiomatic systems. Learning mathematical
 expressions in writing is an integral part of the course. 
 
 This course emphasizes the reading and writing of mathematical proofs.
-We will cover chapters most of Chapters 1 through 6
-of [the textbook](#textbook).
+
 
 **Prerequisites**  
 Prerequisites: 243 (or concurrent) or 253A (or concurrent), or consent. 
@@ -91,43 +115,91 @@ computational problems, concerning the following topics:
 
 See the list of [Course Objectives](#course-objectives) below for more details.
 
+
+
+Writing Intensive Aspects of the Course
+---------------------------------------
+
+This class will use writing to promote the learning of course materials and written assignments will contribute 
+significantly to the student's grade.  In particular, students will be actively engaged in the reading and writing
+of formal and informal proofs of mathematical statements.  The written work will amount to roughly 4 to 6 
+handwritten pages per week (equivalently, 2 to 3 typed pages per week).
+ 
+All of the mandatory writing assignments must be adequately completed in order to pass the course with a 'D' or better. 
+Students who do not complete the mandatory writing assignments will get a D- or an F and will not earn W Focus credit.
+The types of writing assigned will vary and may include formal and "informal" (writing that is not revised) writing. 
+More details about each writing assignment will be provided in that assignment's description.  
+
+Another aspect of the writing component of this course that will be elucidated over the course of the semester 
+is the problem of determining what constitutes a mathematical proof and at what level of detail and formality 
+a proof should be presented.  Developing the skills required to determine the appropriate level of detail and formality 
+of mathematical arguments requires a lot of practice and experience and one objective of this course is to give
+students the opportunity to gain such experience.
+
+
 Textbook Information
 --------------------
 
-**Title:** 
-[Book of Proof](https://www.amazon.com/gp/product/0989472108/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0989472108&linkCode=as2&tag=typefunc-20&linkId=a7cebb94d6c832b84c985f6b6dcc771b)
-**Author:**  Richard Hammack 
+**Title:** How To Prove It
+**Author:** Daniel J. Velleman
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=typefunc-20&marketplace=amazon&region=US&placement=0989472108&asins=0989472108&linkId=f2a4b56c9caabf12d52e863ab547ea18&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF">
-    </iframe>
-	
-It is helpful (but not mandatory) to have a hard copy of the textbook.  Students
-should at least have access to an electronic version of the book, or
-a comparable book. It may be possible for some students to get by
-with just the lecture notes, but that is not recommended.
+Students are expected to have a hardcopy of the textbook.
+While it may be possible for some students to get by
+with just the lecture notes, that is not recommended. 
 
-*Please note: shipping delays or other problems that may arrise
+(Shipping delays or other problems that may arrise
 when trying to find a cheaper copy of the textbook do not constitute a valid
-excuse for failing to submit homework on time.*
+excuse for failing to submit homework on time.)
+
+
+
+Grading Policy
+--------------
+The breakdown of the final course grade is as follows:  
+
++ Final exam: 30 points  
++ Mid-term exams: 40 points (20 each)  
++ Homework: 30 points total  
+
+At the end of the semester, letter grades will be assigned roughly according to
+the following table. However, the scale may be shifted, depending on overall student 
+performance.
+
++ A: 94--100  
++ A-: 91--93  
++ B+: 87--90   
++ B: 84--86   
++ B-: 81--83   
++ C+: 77--80  
++ C: 74--76   
++ C-: 71--73   
++ D+: 67--70   
++ D: 64--66   
++ D-: 60--63   
++ F:  0--59    
+
 
 
 Exams
 -----
 There will be two midterm exams each worth 20%, and a final exam worth 30% of the course grade.
 
-+ **MIDTERM EXAM 1** (focus on Chapters 1 and 2)  
-**DATE:** Friday, February 19 (subject to change)  
++ **MIDTERM EXAM 1** covering chapters (tbd)  
+**DATE:** tbd  
+**TIME:** 1:30--2:20pm  
+**LOCATION:** Keller 403
   
-+ **MIDTERM EXAM 2** (focus on Chapters 3 and 4)  
-**DATE:** Monday, April 4 (subject to change)  
++ **MIDTERM EXAM 2** covering chapters (tbd)  
+**DATE:** tbd  
+**TIME:** 1:30--2:20pm  
+**LOCATION:** Keller 403
 
-+ **FINAL EXAM** (focus on Chapters 1--6 and Section 7.1)  
-**DATE:** Monday, May 2, 2016  
-**TIME:** 12--2pm   
-**LOCATION:** Carver 0132
++ **FINAL EXAM** (cumulative)  
+**DATE:** Monday, December 12, 2016  
+**TIME:** 2:15--4:15pm  
+**LOCATION:** Keller 403
 
-The final exam will be cumulative, that is, it will cover everything we have
-learned during the semester.
+The final exam will cover everything we have learned during the semester.
 
 In accordance with university policy, the final exam is mandatory and must be
 taken by all students at the scheduled time. Do not make travel plans before
@@ -141,7 +213,7 @@ Homework
 Solving lots of problems is the best way to prepare yourself to do well on the
 tests, and ultimately to do well in the course.
 
-The **homework will account for 25% of the course grade** and will be
+The **homework will account for 30% of the course grade** and will be
 assigned once per week, typically due each Friday **at the beginning of class.**
 You must submit a hard copy of your homework.  Electronic documents
 (e.g., email attachments) are not acceptable.
@@ -156,32 +228,6 @@ will be dropped and not counted toward the final course grade.
 
 The last homework assignment will be due during the last week
 of the semester, also known as "dead week."  
-
-Computer Lab
-------------
-Four of the Friday class meetings will be held in the Computer Lab on the
-fourth floor of Carver in Room 449.  Specifically, we will meet in the
-Computer Lab (instead of our usual classroom) on the following dates:
-
-**January 29, February 12, March 25, April 15**
-
-The Computer Lab component is worth 5% of the final course grade.
-
-Students are required to show up for each computer lab, login to a
-computer, and register for (or sign-in to) an account on the Math Department's
-Sage server.  Doing so earns the student one percentage point
-(per lab). Students can then earn one additional point (per lab) by completing
-that day's lab assignment *during that day's lab period* (from 1:10 to 2pm).
-Lab assignments must be completed on the day they are assigned.
-**No late lab assignments will be accepted.**
-
-Thus, there is a total of 8 Computer Lab points available over the course of 
-the semester.  Since the computer lab component accounts for just 5% of the course
-grade, this means there is a possibility of earning 3 extra credit points by
-completing all of the Computer Lab assignments.  On the other hand, if a student
-merely shows up to each Computer Lab session and signs on to their account,
-but does not complete any of the computer assignments, then that student will earn
-4 out of 5% for this component of the course grade.
 
 
 Make-up Policy
@@ -215,57 +261,6 @@ you score a 90% on the final, then you will receive a 72% for the missed test
 (0.80*0.90 = 0.72).
 
 
-Grading Policy
---------------
-The breakdown of the final course grade is as follows:  
-
-+ Final exam: 30 points  
-+ Mid-term exams: 40 points (20 each)  
-+ Homework: 25 points total  
-+ Computer Lab: 5 points total  
-
-At the end of the semester, letter grades will be assigned roughly according to
-the following table. However, the scale may be shifted,
-depending on overall student performance.  All curving (if any)
-will occur at the end of the semester.  
-
-+ A: 94--100  
-+ A-: 91--93  
-+ B+: 87--90   
-+ B: 84--86   
-+ B-: 81--83   
-+ C+: 77--80  
-+ C: 74--76   
-+ C-: 71--73   
-+ D+: 67--70   
-+ D: 64--66   
-+ D-: 60--63   
-+ F:  0--59    
-
-Attendance
-----------
-Students are expected to attend all classes.
-A grade penalty will be exacted if you have an excessive number of absences
-(whether excused or unexcused).
-Specifically, you are permitted (but strongly discouraged from taking) **seven**
-absences in total, and you must
-<a href="mailto:williamdemeo@gmail.com?subject=MATH 317:
-(fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">email
-the instructor</a>
-if/when you must miss a class.
-Each additional absence, and any absence not mentioned to the instructor,
-may result in the deduction of points from your final grade.
-
-Occasionally attendance will be recorded by passing around a sign-in
-sheet on which you will print and sign your own name. If another student asks
-you to sign in for them, don't do it! Forging another student's signature
-constitutes a violation of the student code of conduct and will be referred to
-the ISU Office of Judicial Affairs.
-
-**Important:** If you plan to leave before class is over, the correct procedure is to mention
-this to the professor before the start of class. It is impolite and disruptive
-to your classmates to leave, or even pack up your belongings, before the lecture
-is over.
 
 
 Asking Questions
@@ -303,8 +298,17 @@ pre-populate your message fields.  If you do not at least
 indicate which class you are in, your email may be ignored.
 
 
-Use of Electronics During Lecture
----------------------------------
+
+Classroom Policy and Code of Conduct
+------------------------------------
+Students must abide by the university's [student conduct code](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php).
+In particular, Cheating is unacceptable and will not be tolerated. Violations of this policy
+will be referred to and dealt with by the UH Office of Judicial Affairs in a
+manner consistent with university regulations, which range from a warning to
+expulsion from the university.
+
+
+### Use of Electronics During Lecture.
 Silence and refrain from using all electronic devices (phones, ipods, tablets,
 microwave ovens, etc.) during class and exam periods.
 Using a computer during lecture to check Facebook, for example, is totally
@@ -314,87 +318,22 @@ students. **Use of electronic devices in lecture for purposes unrelated
 to math will not be tolerated.**
 
 
-Academic Honesty
-----------------
-Cheating is unacceptable and will not be tolerated. Violations of this policy
-will be referred to and dealt with by the ISU Office of Judicial Affairs, in a
-manner consistent with university regulations, which range from a warning to
-expulsion from the university.
 
-
-Classroom Policy
-----------------
-In this course, we follow the general university classroom policy:
-http://www.math.iastate.edu/Faculty/ClassPolicies.html
-
-
-Students With Disabilities
---------------------------
+### Students With Disabilities.
 If you have a documented disability
 or if you believe that you have a disability that qualifies under the
 Americans with Disabilities Act and Section 504 of the Rehabilitation
-Act and requires accommodations, you should contact the Student Disability
-Resources Office for information on appropriate policies and procedures.
+Act and requires accommodations, you should contact the Kokua student disability
+resources office for information on appropriate policies and procedures.
 
-**The Disability Resources Office**  
-Student Services Building, Room 1076  
-phone: 515-294-6624, or 515-294-7220, or TDD 294-6335  
-email: [disabilityresources@iastate.edu](mailto:disabilityresources@iastate.edu) or
-[accommodations@iastate.edu](mailto:accommodations@iastate.edu).
-
-You must obtain a Student Academic Accommodation Request (SAAR) from the Disability
-Resources office and you must contact your instructor early in the semester so
-that your learning needs may be appropriately met. 
-
-Your instructor will be happy to assist with accommodations, but will not
-provide them retroactively, **so the appropriate requests and paperwork 
-should be filed well before the first exam.**
-
-More information about disability resources in the Mathematics Department can be
-found at http://www.math.iastate.edu/Undergrad/AccommodationPol.html. 
-
-
-------------------------------------------------------------
-
-Course Objectives
------------------
-
-+ Be able to reduce a matrix to row canonical form and solve the
-  system of linear equations Ax = B.  
-+ Be able to prove that the row canonical form of a matrix is unique.  
-+ Know the Elementary row operation matrices and use them in proofs.  
-+ Know the algebraic operations of matrices and proof of associativity.  
-+ Know the characteristic polynomial, the relationship between the 
-  roots of the characteristic polynomial and the minimal polynomial. 
-  Know the relationship between these roots and the blocks of the 
-  Jordan Canonical Form.  
-+ Know diagonalization of matrices and the theorems about its existance.  
-+ Understand the definitions of linear independence and spanning and be 
-  able to prove every spanning set can be reduced to a basis and any
-  independent set can be augmented to a basis.  
-+ Know the definition of a determinant as the signed volume of an ordered
-  simplex. and be able to prove the basic properties of the determinants from 
-  this definition, including  Det[AB] = Det[A] Det[B].  
-+ Know the definition of a linear transformation and be able to set 
-  up the matrix of a linear transformation on a finite dimensional 
-  vector space.  
-+ Know the definition of an eigenvalue and an eigenvector and be 
-  able to compute then for low dimension matrices.  
-+ Know the basic properties of the dot product and how to compute 
-  distances from points to planes, points to lines, angles between 
-  planes, angles between lines.  Know the basic 3 dimensional 
-  constructions and their generalizations to higher dimensions 
-  including the distance formula.  
-+ Know unit vectors and their uses in projections.
 
 Additional Resources
 --------------------
 + [Piazza][]  
-+ [ISU Math Department](http://www.math.iastate.edu/)  
-+ [ISU Math Course Pages](http://www.math.iastate.edu/Directories/CoursePages.html)  
-+ [ISU Math 317 course page (2014)](http://orion.math.iastate.edu/hentzel/class.317.15/)  
++ [UH Math Department](http://math.hawaii.edu/)  
++ [UH Math Course Pages](https://math.hawaii.edu/wordpress/courses/)  
 + [Math Stackexchange](http://math.stackexchange.com/)  
 
-[Piazza]: https://piazza.com/iastate/spring2016/math317/home
-[Piazza page]: https://piazza.com/iastate/spring2016/math317/home
-[Piazza signup page]: https://piazza.com/iastate/spring2016/math317
+[Piazza]: https://piazza.com/hawaii/fall2016/math317/home
+[Piazza page]: https://piazza.com/hawaii/fall2016/math321/home
+[Piazza signup page]: https://piazza.com/hawaii/fall2016/math321
