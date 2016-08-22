@@ -27,6 +27,25 @@ hours this week on (fill in day/time).  Sincerely, (your full name)">send an ema
 in advance to let the instructor know when you plan to visit.
 
 --------------------------------------------------------------------
+**Table of Contents** 
+
+- [Introduction](#introduction)
+- [Attendance Policy](#attendance-policy)
+- [Overview, Prerequisites, Outcomes](#overview-prerequisites-outcomes)
+- [Writing Intensive Aspects of the Course](#writing-intensive-aspects-of-the-course)
+- [Textbook Information](#textbook-information)
+- [Grading Policy](#grading-policy)
+- [Exams](#exams)
+- [Homework](#homework)
+- [Make-up Policy](#make-up-policy)
+- [Asking Questions](#asking-questions)
+- [Email Policy](#email-policy)
+- [Classroom Policy and Code of Conduct](#classroom-policy-and-code-of-conduct)
+- [Use of Electronics During Lecture](#use-of-electronics-during-lecture)
+- [Students With Disabilities](#students-with-disabilities)
+- [Additional Resources](#additional-resources)
+
+-----------------------------------
 
 Introduction
 ------------
@@ -68,6 +87,7 @@ this to the professor before the start of class. It is impolite and disruptive
 to your classmates to leave, or even pack up your belongings, before the lecture
 is over.
 
+-----------------------------------
 
 
 Overview, Prerequisites, Outcomes
@@ -92,6 +112,7 @@ computational problems, concerning the following topics:
 
 See the list of [Course Objectives](#course-objectives) below for more details.
 
+-----------------------------------
 
 
 Writing Intensive Aspects of the Course
@@ -113,6 +134,7 @@ a proof should be presented.  Developing the skills required to determine the ap
 of mathematical arguments requires a lot of practice and experience and one objective of this course is to give
 students the opportunity to gain such experience.
 
+-----------------------------------
 
 Textbook Information
 --------------------
@@ -129,6 +151,7 @@ when trying to find a cheaper copy of the textbook do not constitute a valid
 excuse for failing to submit homework on time.)
 
 
+-----------------------------------
 
 Grading Policy
 --------------
@@ -156,6 +179,7 @@ performance.
 + F:  0--59    
 
 
+-----------------------------------
 
 Exams
 -----
@@ -180,6 +204,7 @@ In accordance with university policy, the final exam is mandatory and must be
 taken by all students at the scheduled time. Do not make travel plans before
 the date of the final exam.
 
+-----------------------------------
 
 Homework
 --------
@@ -204,6 +229,7 @@ will be dropped and not counted toward the final course grade.
 The last homework assignment will be due during the last week
 of the semester, also known as "dead week."  
 
+-----------------------------------
 
 Make-up Policy
 --------------
