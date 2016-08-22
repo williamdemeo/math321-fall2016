@@ -199,8 +199,6 @@ There will be two midterm exams each worth 20%, and a final exam worth 30% of th
 **TIME:** 2:15--4:15pm  
 **LOCATION:** Keller 403
 
-The final exam will cover everything we have learned during the semester.
-
 In accordance with university policy, the final exam is mandatory and must be
 taken by all students at the scheduled time. Do not make travel plans before
 the date of the final exam.
@@ -308,7 +306,8 @@ manner consistent with university regulations, which range from a warning to
 expulsion from the university.
 
 
-### Use of Electronics During Lecture.
+Use of Electronics During Lecture
+---------------------------------
 Silence and refrain from using all electronic devices (phones, ipods, tablets,
 microwave ovens, etc.) during class and exam periods.
 Using a computer during lecture to check Facebook, for example, is totally
@@ -318,14 +317,38 @@ students. **Use of electronic devices in lecture for purposes unrelated
 to math will not be tolerated.**
 
 
+Students With Disabilities
+--------------------------
+Students who have a documented disability, or who believe they have 
+a disability that qualifies under the Americans with Disabilities Act and
+Section 504 of the Rehabilitation Act and requires accommodations, 
+should contact the Kokua office for students with disabilities.
 
-### Students With Disabilities.
-If you have a documented disability
-or if you believe that you have a disability that qualifies under the
-Americans with Disabilities Act and Section 504 of the Rehabilitation
-Act and requires accommodations, you should contact the Kokua student disability
-resources office for information on appropriate policies and procedures.
+**KOKUA Program**  
+Queen Lili'uokalani Center for Student Services 013   
+2600 Campus Road   
+Honolulu, Hawaii 96822  
 
+Phone Numbers (Voice/Text):  
+QLCSS building  
+(808) 956-7511  
+(808) 956-7612  
+Fax: (808) 956-8093  
+E-mail: [kokua at hawaii dot edu](mailto:kokua@hawaii.edu)  
+Office Hours: Monday--Friday 8:00am--4:00pm
+
+Students must have their paper work in order and 
+must contact the instructor early in the semester so
+that their learning needs may be appropriately met. 
+
+Your instructor will be happy to assist with accommodations, but will not
+provide them retroactively, **so the appropriate requests and paperwork 
+should be filed well before the first exam.**
+
+More information about disability resources in the Mathematics Department can be
+found at [http://www.hawaii.edu/kokua/](http://www.hawaii.edu/kokua/)
+
+------------------------
 
 Additional Resources
 --------------------
