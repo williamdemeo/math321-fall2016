@@ -54,11 +54,6 @@ You are now reading the main course web page and syllabus for Math 321.
 *This page will be updated throughout the semester. Students are expected to visit this
  page periodically.* 
 
-Please bookmark this page or, better yet,
-<a href="mailto:?subject=MATH 321 webpage&amp;body=The Math 321 webpage is
- https://github.com/williamdemeo/Math321-Spring2016">click here</a> to email the url of this
- page to yourself!
-
 -----------------------------------
 
 Textbook Information
