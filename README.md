@@ -4,8 +4,8 @@ Math 321: Intro to Advanced Math, Fall 2016
 **Instructor:**  Dr. William DeMeo  
 **Email:** [williamdemeo at gmail](mailto:williamdemeo@gmail.com?subject=MATH
 321: (insert an informative subject))  
-**Office:** Keller TBD.  
-**Office hours:** Mon, Wed, Fri 2:30--3:30.  
+**Office:** PSB 404  
+**Office hours:** tbd  
 **Lecture time and location:** Mon, Wed, Fri 1:30--2:20pm, Keller 403.
 
 --------------------
@@ -28,33 +28,11 @@ in advance to let the instructor know when you plan to visit.
 
 --------------------------------------------------------------------
 
-**Table of Contents**
-- [Introduction](#introduction)
-- [Class Meeting Times](#class-meeting-times)
-- [Overview, Prerequisites, Outcomes](#overview-prerequisites-outcomes)
-- [Writing Intensive Apsects of the Course](#writing-intensive-apsects-of-the-course)
-- [Textbook Information](#textbook-information)
-- [Grading Policy](#grading-policy)
-- [Exams](#exams)
-- [Homework](#homework)
-- [Make-up Policy](#make-up-policy)
-- [Attendance](#attendance)
-- [Asking Questions](#asking-questions)
-- [Email Policy](#email-policy)
-- [Classroom Policy and Code of Conduct](#classroom-policy-and-code-of-conduct)
-- [Students With Disabilities](#students-with-disabilities)
-- [Additional Resources](#additional-resources)
-
----------------------------------
-
-
 Introduction
 ------------
-You are now reading the main course web page.
-The paragraphs below serve as the syllabus for Math 321.
+You are now reading the main course web page and syllabus for Math 321.
 
-*This page, as well as the content directory above, and its subdirectories, will
- be updated throughout the semester. Students are expected to visit this
+*This page will be updated throughout the semester. Students are expected to visit this
  page periodically.* 
 
 Please bookmark this page or, better yet,
@@ -62,11 +40,10 @@ Please bookmark this page or, better yet,
  https://github.com/williamdemeo/Math321-Spring2016">click here</a> to email the url of this
  page to yourself!
 
+-----------------------------------
 
-
-Class Meeting Times and Attendance Policy
------------------------------------------
-**Lecture:** MWF 1:30--2:20pm Keller 403
+Attendance Policy
+-----------------
 
 Students are expected to attend all classes.
 A grade penalty will be exacted if you have an excessive number of absences
@@ -242,14 +219,13 @@ then you might be able to take a make-up exam *before* the scheduled exam time.
 To request a make-up exam, a student must provide documented evidence of
 one of the following:
 
-+ Medical excuse - student's own medical emergency.
-+ Medical excuse - a member of the student's family has a medical emergency.
-+ Extra curricular activities as a representative of Iowa State University.
++ Documented medical excuse - student's own medical emergency.
++ Documented medical excuse - a member of the student's family has a medical emergency.
++ Extra curricular activities as a representative of University of Hawaii.
 + Armed forces deployment (military duty).
 + Officially mandated court appearances, including jury duty.
 + A conflict with another exam or if you have three or more final exams on a
-given day.  (In each case the exam with the fewest students
-must arrange the make-up exam.)
+  given day.  (In each case the exam with the fewest students must arrange the make-up exam.)
 
 If you miss an exam due to some unforeseen circumstance, you must contact the 
 professor within one class meeting after the missed test and provide an
@@ -258,13 +234,12 @@ with 80% of your final exam score. For example, if your excuse is accepted and
 you score a 90% on the final, then you will receive a 72% for the missed test
 (0.80*0.90 = 0.72).
 
-
-
+-----------------------------------------------------------
 
 Asking Questions
 ----------------
-
-When you don't understand something, please ask a question!
+Students are strongly encouraged to ask lots of questions.
+If you don't understand something, please ask!
 
 1. **In Lecture.** The best time/place to ask a question is during lecture or recitation or office hours.
 
@@ -274,18 +249,18 @@ When you don't understand something, please ask a question!
    should enroll in this forum by visiting the [Piazza signup page][].
 
    This system is highly catered to getting you help fast and efficiently from
-   classmates, the TA, and the professor. Rather than emailing questions to the
+   classmates and the professor.  Rather than emailing questions to the
    teaching staff, students are encouraged to post questions on Piazza forum.
    If you have any problems or feedback for the developers, email
    [team@piazza.com](mailto:team@piazza.com). 
 
-   Our class Piazza page is at: https://piazza.com/iastate/spring2016/math317/home
+   The Piazza page for this class is [https://piazza.com/iastate/spring2016/math317/home](https://piazza.com/iastate/spring2016/math317/home).
 
 
 Email Policy
 ------------
 You may email the instructor directly, though the response
-time will generally be slower than if you use one of the preferred methods
+time might be a slower than if you use one of the preferred methods
 described above.
 
 If you email the instructor, you *must* use an informative subject field.
@@ -293,18 +268,19 @@ If you use <a href="mailto:williamdemeo@gmail.com?subject=MATH 317:
 (fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">this
 link</a>  to email the professor, then some of the required information should
 pre-populate your message fields.  If you do not at least
-indicate which class you are in, your email may be ignored.
+indicate which class you are in, your email might go unanswered.
 
-
+---------------------------------------------
 
 Classroom Policy and Code of Conduct
 ------------------------------------
 Students must abide by the university's [student conduct code](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php).
-In particular, Cheating is unacceptable and will not be tolerated. Violations of this policy
+In particular, cheating is unacceptable and will not be tolerated. Violations of this policy
 will be referred to and dealt with by the UH Office of Judicial Affairs in a
 manner consistent with university regulations, which range from a warning to
 expulsion from the university.
 
+------------------------------------------
 
 Use of Electronics During Lecture
 ---------------------------------
@@ -316,6 +292,7 @@ being taught in the lecture, computers can be very distracting to other
 students. **Use of electronic devices in lecture for purposes unrelated 
 to math will not be tolerated.**
 
+----------------------------------
 
 Students With Disabilities
 --------------------------
