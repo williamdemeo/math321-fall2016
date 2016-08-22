@@ -30,10 +30,10 @@ in advance to let the instructor know when you plan to visit.
 **Table of Contents** 
 
 - [Introduction](#introduction)
-- [Attendance Policy](#attendance-policy)
+- [Textbook Information](#textbook-information)
 - [Overview, Prerequisites, Outcomes](#overview-prerequisites-outcomes)
 - [Writing Intensive Aspects of the Course](#writing-intensive-aspects-of-the-course)
-- [Textbook Information](#textbook-information)
+- [Attendance Policy](#attendance-policy)
 - [Grading Policy](#grading-policy)
 - [Exams](#exams)
 - [Homework](#homework)
@@ -61,34 +61,22 @@ Please bookmark this page or, better yet,
 
 -----------------------------------
 
-Attendance Policy
------------------
+Textbook Information
+--------------------
 
-Students are expected to attend all classes.
-A grade penalty will be exacted if you have an excessive number of absences
-(whether excused or unexcused).
-Specifically, you are permitted (but strongly discouraged from taking) **seven**
-absences in total, and you must
-<a href="mailto:williamdemeo@gmail.com?subject=MATH 317:
-(fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">email
-the instructor</a>
-if/when you must miss a class.
-Each additional absence, and any absence not mentioned to the instructor,
-may result in the deduction of points from your final grade.
+**Title:** How To Prove It
+**Author:** Daniel J. Velleman
 
-Occasionally attendance will be recorded by passing around a sign-in
-sheet on which you will print and sign your own name. If another student asks
-you to sign in for them, don't do it! Forging another student's signature
-constitutes a violation of the student code of conduct and will be referred to
-the UH Office of Judicial Affairs.
+Students are expected to have a hardcopy of the textbook.
+While it may be possible for some students to get by
+with just the lecture notes, that is not recommended. 
 
-**Important:** If you plan to leave before class is over, the correct procedure is to mention
-this to the professor before the start of class. It is impolite and disruptive
-to your classmates to leave, or even pack up your belongings, before the lecture
-is over.
+(Shipping delays or other problems that may arrise
+when trying to find a cheaper copy of the textbook do not constitute a valid
+excuse for failing to submit homework on time.)
+
 
 -----------------------------------
-
 
 Overview, Prerequisites, Outcomes
 ---------------------------------
@@ -136,19 +124,32 @@ students the opportunity to gain such experience.
 
 -----------------------------------
 
-Textbook Information
---------------------
 
-**Title:** How To Prove It
-**Author:** Daniel J. Velleman
+Attendance Policy
+-----------------
 
-Students are expected to have a hardcopy of the textbook.
-While it may be possible for some students to get by
-with just the lecture notes, that is not recommended. 
+Students are expected to attend all classes.
+A grade penalty will be exacted if you have an excessive number of absences
+(whether excused or unexcused).
+Specifically, you are permitted (but strongly discouraged from taking) **seven**
+absences in total, and you must
+<a href="mailto:williamdemeo@gmail.com?subject=MATH 317:
+(fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">email
+the instructor</a>
+if/when you must miss a class.
+Each additional absence, and any absence not mentioned to the instructor,
+may result in the deduction of points from your final grade.
 
-(Shipping delays or other problems that may arrise
-when trying to find a cheaper copy of the textbook do not constitute a valid
-excuse for failing to submit homework on time.)
+Occasionally attendance will be recorded by passing around a sign-in
+sheet on which you will print and sign your own name. If another student asks
+you to sign in for them, don't do it! Forging another student's signature
+constitutes a violation of the student code of conduct and will be referred to
+the UH Office of Judicial Affairs.
+
+**Important:** If you plan to leave before class is over, the correct procedure is to mention
+this to the professor before the start of class. It is impolite and disruptive
+to your classmates to leave, or even pack up your belongings, before the lecture
+is over.
 
 
 -----------------------------------
