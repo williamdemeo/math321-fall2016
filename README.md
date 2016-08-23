@@ -14,8 +14,6 @@ Math 321: Intro to Advanced Math, Fall 2016
 
 **Piazza:** [piazza.com/hawaii/fall2016/math321/home](https://piazza.com/hawaii/fall2016/math321/home)
 
-**Number of Credits: 3**
-
 --------------------------------------
 
 **Remarks about office hours:**
@@ -153,12 +151,12 @@ Grading Policy
 --------------
 The breakdown of the final course grade is as follows:  
 
++ Homework: 40 points total  
++ Two midterm exams: 30 points (15 each)  
 + Final exam: 30 points  
-+ Mid-term exams: 40 points (20 each)  
-+ Homework: 30 points total  
 
 At the end of the semester, letter grades will be assigned roughly according to
-the following table. However, the scale may be shifted, depending on overall student 
+the following table. However, the scale may be shifted depending on overall student 
 performance.
 
 + A: 94--100  
@@ -179,7 +177,7 @@ performance.
 
 Exams
 -----
-There will be two midterm exams each worth 20%, and a final exam worth 30% of the course grade.
+There will be two midterm exams each worth 15%, and a final exam worth 30% of the course grade.
 
 + **MIDTERM EXAM 1** covering chapters (tbd)  
 **DATE:** tbd  
@@ -206,11 +204,8 @@ Homework
 --------
 **Late homework will not be accepted or graded.**  
 
-Solving lots of problems is the best way to prepare yourself to do well on the
-tests, and ultimately to do well in the course.
-
 The **homework will account for 30% of the course grade** and will be
-assigned once per week, typically due each Friday **at the beginning of class.**
+assigned every other week, typically due on Wednesday **at the beginning of class.**
 You must submit a hard copy of your homework.  Electronic documents
 (e.g., email attachments) are not acceptable.
 
@@ -220,10 +215,23 @@ accepted or graded.**
 
 At least one (possibly more) of the lowest or missed homework scores
 will be dropped and not counted toward the final course grade.
-*The 10 best homework scores will count toward the final grade.*
+*The 6 best homework scores will count toward the final grade.*
 
-The last homework assignment will be due during the last week
-of the semester, also known as "dead week."  
+Descriptions of each homework assignment will be available in the 
+homework directory of this repository. Homework is due in class
+on Wednesday two weeks after it is assigned. 
+
+This is a writing intensive course, so you will be graded both on the correctness
+of your solutions, and also on the quality of your writing. You will get the
+graded homework back in class on the Friday after it is due. At this point, you
+will have until the next Wednesday (five days) to do corrections for 2/3 of the
+original credit. You may only do corrections on problems that you have made a
+'reasonable' first attempt at, so please try to do everything the first time around!
+
+You are strongly encouraged to start the homework early, and to come to me if
+you have any questions.
+
+
 
 -----------------------------------
 
