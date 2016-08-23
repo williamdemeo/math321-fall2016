@@ -6,7 +6,7 @@ Math 321: Intro to Advanced Math, Fall 2016
 321: (insert an informative subject))  
 **Office:** PSB 404  
 **Office hours:** tbd  
-**Lecture time and location:** Mon, Wed, Fri 1:30--2:20pm, Keller 403.
+**Lecture time and location:** Mon, Wed, Fri 1:30--2:20pm, Keller 301.
 
 --------------------
 
@@ -182,17 +182,17 @@ There will be two midterm exams each worth 15%, and a final exam worth 30% of th
 + **MIDTERM EXAM 1** covering chapters (tbd)  
 **DATE:** tbd  
 **TIME:** 1:30--2:20pm  
-**LOCATION:** Keller 403
+**LOCATION:** Keller 301
   
 + **MIDTERM EXAM 2** covering chapters (tbd)  
 **DATE:** tbd  
 **TIME:** 1:30--2:20pm  
-**LOCATION:** Keller 403
+**LOCATION:** Keller 301
 
 + **FINAL EXAM** (cumulative)  
 **DATE:** Monday, December 12, 2016  
 **TIME:** 2:15--4:15pm  
-**LOCATION:** Keller 403
+**LOCATION:** Keller 301
 
 In accordance with university policy, the final exam is mandatory and must be
 taken by all students at the scheduled time. Do not make travel plans before
