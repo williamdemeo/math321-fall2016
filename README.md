@@ -180,12 +180,12 @@ Exams
 There will be two midterm exams each worth 15%, and a final exam worth 30% of the course grade.
 
 + **MIDTERM EXAM 1** covering chapters (tbd)  
-**DATE:** tbd  
+**DATE:** Friday, October 7  
 **TIME:** 1:30--2:20pm  
 **LOCATION:** Keller 301
   
 + **MIDTERM EXAM 2** covering chapters (tbd)  
-**DATE:** tbd  
+**DATE:** Wednesday, November 23  
 **TIME:** 1:30--2:20pm  
 **LOCATION:** Keller 301
 
