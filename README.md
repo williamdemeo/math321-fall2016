@@ -212,11 +212,9 @@ You must submit a hard copy of your homework.  Electronic documents
 
 Homework submitted at the end of class on the due date will be penalized
 10%. **Homework submitted after then end of class on the due date will not be
-accepted or graded.**  
-
+accepted or graded.**
 The lowest (or missed) homework score
 will be dropped and not counted toward the final course grade.
-*The 5 best homework scores will count.*
 
 Descriptions of each homework assignment will be available in the 
 homework directory of this repository. Homework is due in class
