@@ -7,7 +7,7 @@ Students are advised to check this page often!
 
 ---------------------------------------------------------
 M 8/22: Course intro  
-W 8/24: 1. HW 1 assigned  
+W 8/24: HW 1 assigned  
 F 8/25:  
 
 ---------------------------------------------------------  
@@ -16,7 +16,7 @@ W 8/31: **HW 1 due**; HW 2 assigned
 F 9/2:  
 
 ---------------------------------------------------------  
-M 9/5: Labor Day (no class)
+M 9/5: Labor Day (no class)  
 W 9/7: HW 1 corrections due  
 F 9/9:  
 
