@@ -204,8 +204,9 @@ Homework
 --------
 **Late homework will not be accepted or graded.**  
 
-The **homework will account for 30% of the course grade** and will be
+The **homework will account for 40% of the course grade** and will be
 assigned every other week, typically due on Wednesday **at the beginning of class.**
+
 You must submit a hard copy of your homework.  Electronic documents
 (e.g., email attachments) are not acceptable.
 
@@ -213,9 +214,9 @@ Homework submitted at the end of class on the due date will be penalized
 10%. **Homework submitted after then end of class on the due date will not be
 accepted or graded.**  
 
-At least one (possibly more) of the lowest or missed homework scores
+The lowest (or missed) homework score
 will be dropped and not counted toward the final course grade.
-*The 6 best homework scores will count toward the final grade.*
+*The 5 best homework scores will count.*
 
 Descriptions of each homework assignment will be available in the 
 homework directory of this repository. Homework is due in class
@@ -230,8 +231,6 @@ original credit. You may only do corrections on problems that you have made a
 
 You are strongly encouraged to start the homework early, and to come to me if
 you have any questions.
-
-
 
 -----------------------------------
 
