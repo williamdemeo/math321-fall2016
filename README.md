@@ -56,13 +56,21 @@ You are now reading the main course web page and syllabus for Math 321.
 
 Textbook Information
 --------------------
+We will use the following books in this class:
 
-**Title:** How To Prove It
-**Author:** Daniel J. Velleman
+**Title:** [How To Prove It](https://www.amazon.com/How-Prove-Structured-Approach-2nd/dp/0521675995/) (2nd edition)  
+**Author:** Daniel J. Velleman  
+**Publisher:** Cambridge University Press  
+**Year:** 2006  
 
-Students are expected to have a hardcopy of the textbook.
-While it may be possible for some students to get by
-with just the lecture notes, that is not recommended. 
+**Title:** [Book of Proof](http://www.people.vcu.edu/~rhammack/BookOfProof/)  
+**Author:** Richard Hammack  
+**Edition:** 2.2  
+**Year:** 2013
+
+Students are expected to have a hardcopy of at least one, preferably both, of these textbooks.
+While it may be possible for some students to get by with just the lecture
+notes, that is not recommended.  
 
 (Shipping delays or other problems that may arrise
 when trying to find a cheaper copy of the textbook do not constitute a valid
