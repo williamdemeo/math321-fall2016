@@ -75,11 +75,12 @@ Here are some other (optional) supplementary textbooks that students might find 
 
 3. [Mathematical Logic](https://books.google.com/books/about/Mathematical_Logic.html?id=4GzCAgAAQBAJ) by Stephen Cole Kleene.
 
-The first are similar in coverage to "How To Prove It."  The third is a more advanced book on logic and foundations of mathematics.
-It is included in the list of supplementary materials because the other books might leave some students unsatisfied.
-The main goal of the other books is to give a gentle introduction to abstract mathematics, and these books are
-careful to avoid overwhelming students with lots of details and technicalities.  If you feel unsatisfied and
-want to learn more of the details, you might find Kleene's book useful.
+The first two of these supplementary books are similar in coverage to "How To Prove It."
+The third is a more advanced book on logic and foundations of mathematics.
+It is included in the list because the other books might leave some students unsatisfied, since their
+primary purpose is to provide a gentle introduction to abstract mathematics, so they 
+carefully avoid overwhelming students with lots of details and technicalities.  If you feel unsatisfied and
+want to learn more of the foundational details, you might find Kleene's book useful.
 
 
 -----------------------------------
