@@ -5,6 +5,9 @@ This is the preliminary schedule for Math 321
 It may be revised and updated throughout the semester. 
 Students are advised to check this page often!
 
+("V 1.1" refers to Section 1.1. of the textbook
+"How To Prove It" by **V**elleman.)
+
 ---------------------------------------------------------
 M 8/22: Course intro; HW 0: read Intro of textbook  
 W 8/24: V 1.1; HW 1 assigned  
