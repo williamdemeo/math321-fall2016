@@ -6,84 +6,84 @@ It may be revised and updated throughout the semester.
 Students are advised to check this page often!
 
 ---------------------------------------------------------
-M 8/22: Course intro  
-W 8/24: HW 1 assigned  
-F 8/25:  
+M 8/22: Course intro; HW 0: read Intro of textbook  
+W 8/24: V 1.1; HW 1 assigned  
+F 8/25: V 1.2  
 
 ---------------------------------------------------------  
-M 8/29:  
-W 8/31: **HW 1 due**; HW 2 assigned  
-F 9/2:  
+M 8/29: V 1.3  
+W 8/31: V 1.4; **HW 1 due**; HW 2 assigned  
+F 9/2:  V 1.5
 
 ---------------------------------------------------------  
 M 9/5: Labor Day (no class)  
-W 9/7: HW 1 corrections due  
-F 9/9:  
+W 9/7: V 2.1; HW 1 corrections due  
+F 9/9: V 2.2  
 
 ---------------------------------------------------------  
-M 9/12:  
-W 9/14: **HW 2 due**; HW 3 assigned  
-F 9/16:  
+M 9/12: V 2.3  
+W 9/14: V 3.1; **HW 2 due**; HW 3 assigned  
+F 9/16: V 3.2   
 
 ---------------------------------------------------------  
-M 9/19:  
-W 9/21: HW 2 corrections due  
-F 9/23:  
+M 9/19: V 3.3   
+W 9/21: V 3.4; HW 2 corrections due  
+F 9/23: V 3.5  
 
 ---------------------------------------------------------  
-M 9/26:  
-W 9/28: **HW 3 due**  
-F 9/30:  
+M 9/26: V 3.6   
+W 9/28: V 3.7; **HW 3 due**  
+F 9/30: catch up   
 
 ---------------------------------------------------------  
-M 10/3:  
-W 10/5: HW 3 corrections due  
-F 10/7: **EXAM 1**; HW 4 assigned  
+M 10/3: catch up  
+W 10/5: catch up; HW 3 corrections due  
+F 10/7: **EXAM 1** (Chapters 1--3); HW 4 assigned  
 
 ---------------------------------------------------------  
-M 10/10:  
-W 10/12:  
-F 10/14:  
+M 10/10: V 4.1  
+W 10/12: V 4.2  
+F 10/14: V 4.3  
 
 ---------------------------------------------------------  
-M 10/17:  
-W 10/19: **HW 4 due**; HW 5 assigned  
-F 10/21:  
+M 10/17: V 4.4   
+W 10/19: V 4.5; **HW 4 due**; HW 5 assigned  
+F 10/21: V 4.6    
 
 ---------------------------------------------------------  
-M 10/24:  
-W 10/26: HW 4 corrections due  
-F 10/28:  
+M 10/24: V 5.1   
+W 10/26: V 5.2; HW 4 corrections due  
+F 10/28: V 5.3    
 
 ---------------------------------------------------------  
-M 10/31:  
-W 11/2: **HW 5 due**; HW 6 assigned  
-F 11/4:  
+M 10/31: V 5.4 (time permitting)  
+W 11/2: V 6.1; **HW 5 due**; HW 6 assigned  
+F 11/4: V 6.2    
 
 ---------------------------------------------------------  
-M 11/7:  
-W 11/9: HW 5 corrections due  
+M 11/7: V 6.3    
+W 11/9: V 6.4; HW 5 corrections due  
 F 11/11: Veteran's Day (no class)  
 
 ---------------------------------------------------------  
-M 11/14:  
-W 11/16: **HW 6 due**  
-F 11/18:  
+M 11/14: V 6.5    
+W 11/16: catch up; **HW 6 due**  
+F 11/18: catch up   
 
 ---------------------------------------------------------  
-M 11/21:  
-W 11/23: **EXAM 2**; HW 7 assigned  
+M 11/21: catch up  
+W 11/23: **EXAM 2** (Chapters 4--6); HW 7 assigned  
 F 11/25: Thanksgiving (no class)  
 
 ---------------------------------------------------------  
-M 11/28:  
-W 11/30: HW 6 corrections due  
-F 12/2:  
+M 11/28: V 7.1  
+W 11/30: V 7.2; HW 6 corrections due  
+F 12/2:  V 7.3  
 
 ---------------------------------------------------------  
-M 12/5:  
-W 12/7: **HW 7 due**  
-F 12/9:  
+M 12/5: catch up  
+W 12/7: review;  **HW 7 due**  
+F 12/9: review   
 
 ---------------------------------------------------------  
 M 12/12: **Final Exam** 2:15--4:15pm in Keller 403   
