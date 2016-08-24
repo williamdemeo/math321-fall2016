@@ -56,25 +56,30 @@ You are now reading the main course web page and syllabus for Math 321.
 
 Textbook Information
 --------------------
-We will use the following books in this class:
+We will mainly use the following (required) textbook in this class:
 
 **Title:** [How To Prove It](https://www.amazon.com/How-Prove-Structured-Approach-2nd/dp/0521675995/) (2nd edition)  
 **Author:** Daniel J. Velleman  
 **Publisher:** Cambridge University Press  
 **Year:** 2006  
 
-**Title:** [Book of Proof](http://www.people.vcu.edu/~rhammack/BookOfProof/)  
-**Author:** Richard Hammack  
-**Edition:** 2.2  
-**Year:** 2013
+Students are expected to own (or have access to) a copy of the required textbook, "How to Prove It".
+It may be possible for some students to get by with just the lecture
+notes, but that is not recommended.  
 
-Students are expected to have a hardcopy of at least one, preferably both, of these textbooks.
-While it may be possible for some students to get by with just the lecture
-notes, that is not recommended.  
+Here are some other (optional) supplementary textbooks that students might find useful:
 
-(Shipping delays or other problems that may arrise
-when trying to find a cheaper copy of the textbook do not constitute a valid
-excuse for failing to submit homework on time.)
+1. [Book of Proof](http://www.people.vcu.edu/~rhammack/BookOfProof/)  by Richard Hammack.
+
+2. [Mathematical Reasoning: writing and proof](https://sites.google.com/site/mathematicalreasoning3ed/) by Ted Sundstrom.
+
+3. [Mathematical Logic](https://books.google.com/books/about/Mathematical_Logic.html?id=4GzCAgAAQBAJ) by Stephen Cole Kleene.
+
+The first are similar in coverage to "How To Prove It."  The third is a more advanced book on logic and foundations of mathematics.
+It is included in the list of supplementary materials because the other books might leave some students unsatisfied.
+The main goal of the other books is to give a gentle introduction to abstract mathematics, and these books are
+careful to avoid overwhelming students with lots of details and technicalities.  If you feel unsatisfied and
+want to learn more of the details, you might find Kleene's book useful.
 
 
 -----------------------------------
