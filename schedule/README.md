@@ -10,7 +10,7 @@ Students are advised to check this page often!
 
 ---------------------------------------------------------
 M 8/22: Course intro; HW 0: read Intro of textbook  
-W 8/24: V 1.1; HW 1 assigned  
+W 8/24: V 1.1; HW 1 assigned (V 1.1: 4, 6, 7; V 1.2: 7, 8, 15)  
 F 8/25: V 1.2  
 
 ---------------------------------------------------------  
