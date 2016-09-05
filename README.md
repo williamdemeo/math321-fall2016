@@ -5,7 +5,7 @@ Math 321: Intro to Advanced Math, Fall 2016
 **Email:** [williamdemeo at gmail](mailto:williamdemeo@gmail.com?subject=MATH
 321: (insert an informative subject))  
 **Office:** PSB 404  
-**Office hours:** Tue, Thu 11am--12:30pm, PSB 404  
+**Office hours:** Tue, Thu 10:30am--12:00pm, PSB 404  
 **Lecture time and location:** Mon, Wed, Fri 1:30--2:20pm, Keller 301.
 
 --------------------
