@@ -1,0 +1,98 @@
+% Example LaTeX document for GP111 - note % sign indicates a comment
+\documentclass[12pt]{amsart}
+
+% \addtolength{\hoffset}{-1.25cm}
+% \addtolength{\textwidth}{2.5cm}
+% \linespread{1.4}
+%\usepackage[paperwidth=9cm, paperheight=12cm, top=1cm, left=1cm,right=1cm,bottom=1.5cm, includefoot]{geometry}
+\usepackage[top=1in, left=1in,right=1in,bottom=1.5in]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\newcommand{\sP}{\ensuremath{\mathcal{P}}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\pagestyle{empty}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center} \textbf{Interpretations, Models, Completeness}\\ \end{center}
+The language of propositional logic consists of a set of symbols -- namely,
+\begin{itemize}
+\item 
+ \emph{propositional symbols}, like $A$, $B$, $P$, $Q$, etc.,
+\item \emph{logical connectives}, $'$, $\meet$, $\join$, $\rightarrow$
+\item parentheses
+\end{itemize}
+A \emph{sentence} in our language is simply a string of symbols.
+A statement, or \emph{well formed formula} (wff), is not just some arbitrary string of
+symbols. Rather, a wff is a sentence that is constructed 
+according to the following rules:
+\begin{enumerate}
+\item Each propositional symbol, $A$, $B$, $P$, $Q$, etc. is itself a wff.
+\item If $P$ is a wff, then $P'$ is a wff.
+\item If $P$ and $Q$ are both wffs, then so are $P\meet Q$, $P\join Q$ and
+  $P\rightarrow Q$.
+\end{enumerate}
+Any string of symbols that cannot be constructed by applying
+these three rules a finite number of times (along with some parentheses if necessary) 
+is not a well formed formula.
+
+Now, we can use propositional symbols and logical connectives to construct a
+statement (wff) in the language, but whether or not this statement is true
+depends on the \emph{interpretation} that we assign to the propositional symbols.  An
+interpretation is merely an assignment of $T$ or $F$ to each propositional symbol in
+the language.  If we know the truth value of each propositional symbol appearing
+in a wff, then we can determine whether that wff is true of false.   
+
+
+More formally, if $\sP$ is the set of all propositional
+symbols in our language, then an {\bf interpretation} is a function $I : \sP
+\rightarrow \{T, F\}$ that assigns to each propositional symbol $P$ in $\sP$, a
+value: either $I(P) = T$ (true), or $I(P) = F$ (false).
+
+Suppose $\phi$ is a wff, and $I$ an interpretation.  If $\phi$ is true in $I$,
+then we write $I\models \phi$ and we say that $I$ is a {\bf model} of $\phi$.
+
+If we have a whole set $\Sigma$ of wffs and if $I$ 
+is an interpretation in which every statement in
+$\Sigma$ is true, then we write $I \models \Sigma$ and we say that $I$ is a
+\emph{model} of $\Sigma$.
+
+
+Now, given a set $\Sigma$ of wffs, if there exists an interpretation $I$ that
+is a model of $\Sigma$, that is, $I\models \Sigma$, the we say that $\Sigma$ is
+{\bf satisfiable}.  (If there is no such model, we say that $\Sigma$ is
+unsatisfiable.)  Let $\phi$ be a wff.  We say that $\Sigma$ {\bf logically implies}
+$\phi$, and we write $\Sigma \models \phi$, if the set $\Sigma \cup \{\phi'\}$ is
+unsatisfiable.  In other words, $\Sigma\models \phi$ means that $\phi$ is true
+in every interpretation that models $\Sigma$.
+
+Every logical system has a set $S$ of {\bf deduction rules} that allow us to start
+from some wff and derive other wffs in a \emph{truth preserving} manner.  That
+is, if $\phi$ is true and if we can derive $\psi$ from $\phi$ using our rules,
+then $\psi$ must also be true.  We use the symbol $\vdash$ to mean ``leads to''
+and we write $\phi \vdash \psi$ to mean $\phi$ leads to $\psi$, that is, $\psi$
+can be {\bf logically deduced} from
+$\phi$. Sometimes we write $\phi \vdash_S \psi$ to emphasize that this is a
+property that depends on $S$. %  (Note, this is not the same as $\phi \Rightarrow \psi$, which means
+% $\phi \rightarrow \psi$ is a tautology -- i.e., true in every interpretation.)
+If $\Sigma$ is a set of wffs, and if we can deduce $\phi$ using
+$\Sigma$ and the deduction rules in $S$, then we write $\Sigma \vdash_S \phi$.
+
+A set $S$ of deduction rules is called {\bf complete} if every wff that is
+logically implied by some set $\Sigma$ can be logically deduced from $\Sigma$
+using the rules in $S$. That is, a system is complete provided for all $\Sigma$ and
+$\phi$ the following is true:
+If $\Sigma \models \phi$, then $\Sigma \vdash_S \phi$.  Conversely, a system is called 
+{\bf correct} provided $\Sigma \vdash_S \phi$ implies $\Sigma \models \phi$. 
+
+
+%\begin{center} \textbf{Equivalence Rules} \end{center}
+
+
+
+
+\end{document}
