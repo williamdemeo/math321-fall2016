@@ -1,0 +1,142 @@
+% Example LaTeX document for GP111 - note % sign indicates a comment
+\documentclass[12pt]{amsart}
+
+% \addtolength{\hoffset}{-1.25cm}
+% \addtolength{\textwidth}{2.5cm}
+% \linespread{1.4}
+%\usepackage[paperwidth=9cm, paperheight=12cm, top=1cm, left=1cm,right=1cm,bottom=1.5cm, includefoot]{geometry}
+\usepackage[top=1in, left=1in,right=1in,bottom=1.5in]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\pagestyle{empty}
+
+\begin{document}
+\thispagestyle{empty}
+%\date{February 1, 2013}
+\begin{center} \textbf{Equivalence Rules and Inference Rules }\\
+(Updated September 13, 2016) \end{center}
+
+%\begin{center} \textbf{Equivalence Rules} \end{center}
+   
+\begin{table}[h]
+\caption{Equivalence Rules of Propositional Logic}
+\begin{tabular}
+%{p{1.5in}|p{1.5in}|p{3in}}
+{l|l|l}
+\hline
+\hspace*{.25in} Expression \hspace*{.25in}& \hspace*{.25in} Equivalent to
+\hspace*{.25in} & \hspace*{.25in}Name (abbreviation)  \hspace*{.25in}\\[5pt]
+\hline
+$P\vee Q$& $Q\vee P$& Commutative (comm)\\
+$P\wedge Q$& $Q\wedge P$ &\\[5pt] 
+\hline
+$(P\vee Q) \vee R$ &$P\vee (Q \vee R)$ &Associative (ass)\\
+$(P\wedge Q) \wedge R$ &$P\wedge (Q \wedge R)$& \\[5pt] 
+\hline
+$P \vee (Q\wedge R)$& $(P\vee Q)\wedge (P\vee R)$ & Distributive (dist)\\
+$P \wedge (Q\vee R)$& $(P\wedge Q)\vee (P\wedge R)$ & \\[5pt] 
+\hline
+$\neg (P\wedge Q)$&$\neg P\vee \neg Q$& De Morgan's laws (DeMorgan) \\
+$\neg (P\vee Q)$&$\neg P\wedge \neg Q$& \\[5pt] 
+\hline
+$P \rightarrow Q$ &$\neg P\vee Q$& Implication (imp) \\[5pt]
+\hline
+$P$&$\neg \neg P$& Double negation (dn) \\[5pt]  
+\hline
+$P\leftrightarrow Q $&$ (P\rightarrow Q)\wedge (Q\rightarrow P)$& Equivalence (equ) \\[5pt] 
+\hline
+$(P\wedge Q) \rightarrow R$ & $P\rightarrow (Q\rightarrow R)$ & Deduction (ded)\\[5pt]
+\hline
+$P\rightarrow Q$ & $\neg Q\rightarrow \neg P$ & Contraposition (cont)\\[5pt]
+ \hline
+
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{Inference Rules of Propositional Logic}
+\begin{tabular}
+%{p{1.5in}|p{1.5in}|p{3in}}
+{l|l|l}
+\hline
+\hspace*{.25in} From \hspace*{.25in}& \hspace*{.25in} Can Derive \hspace*{.25in}
+& \hspace*{.25in}Name (abbreviation)  \hspace*{.25in}\\ 
+\hline
+$P,\, P\rightarrow Q$&$ Q$& Modus Ponens (mp)\\[5pt] 
+ \hline
+$P\rightarrow Q, \,\neg Q$&$ \neg P$& Modus Tollens (mt) \\[5pt]
+  \hline
+$P,\, Q$&$P\wedge Q$ & Conjunction (conj) \\[5pt] 
+ \hline
+$P\wedge Q$&$P$ & Simplification (sim) \\
+$P\wedge Q$&$Q$ &  \\ [5pt] 
+\hline
+$P$&$ P\vee Q$ & Addition (add) \\[5pt] 
+ \hline
+$P\rightarrow Q, \, Q\rightarrow R$ & $P\rightarrow R$ & Hypothetical syllogism (hs)\\[5pt]
+ \hline
+$P\vee Q, \, \neg P$ & $Q$ & Disjunctive syllogism (ds)\\[5pt]
+ \hline
+$P$ & $P\wedge P$ & Self-reference (self)\\[5pt]
+ \hline
+$P\vee P$ & $P$ & Self-reference (self)\\[5pt]
+ \hline
+$\neg P,\, P$ & $Q$ (for any $Q$) & Inconsistency (inc) \\[5pt]
+ \hline
+% $P\wedge(Q\vee R)$ & $(P\wedge Q)\vee (P\wedge R)$ & Distributive (dist)  \\[5pt]
+%  \hline
+% $P\vee(Q\wedge R)$ & $(P\vee Q)\wedge (P\vee R)$ & Distributive (dist)  \\[5pt]
+%  \hline
+
+\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Inference Rules of Predicate Logic}
+\begin{tabular}
+%{p{1.5in}|p{1.5in}|p{3in}}
+{l|p{1.5in}|p{1.5in}|p{2in}}
+\hline
+ From &  Can Derive  & Name (abbreviation) & Restrictions \\[5pt]
+\hline
+$(\forall x)P(x)$ &$P(t)$ where $t$ is a variable or constant. & Universal
+\mbox{Instantiation (ui)}& If $t$ is a variable, it must not be quantified inside
+$P(x)$.\\[5pt]
+ \hline
+$(\exists x)P(x)$&$ P(a)$ where $a$ is a constant. & Existential
+\mbox{Instantiation (ei)} & Must be the first use of the constant $a$\\[5pt]
+ \hline
+$P(x)$&$(\forall x)P(x)$ & Universal \mbox{Generalization (ug)} & $P(x)$ hasn't
+been deduced from hypotheses where $x$ is free, nor by using ei on a wff with
+$x$ free. \\[5pt]
+ \hline
+$P(x)$ or $P(a)$&$ (\exists x)P(x)$ & Existential \mbox{Generalization (eg)} & To
+get $(\exists x)P(x)$ from $P(a)$, $x$ can't already appear in $P(a).$  \\[5pt]
+ \hline
+
+\end{tabular}
+\end{table}
+
+~\vskip2cm
+
+\noindent {\bf Remarks:} We can prove that Deduction (ded) is an equivalence rule.  
+That is, we showed that the following is a tautology:
+\[[(P\wedge Q) \rightarrow R] \quad \longleftrightarrow\quad [P\rightarrow
+(Q\rightarrow R)].\]
+So the wff's on either side of $\longleftrightarrow$ are
+equivalent. We denote this by
+\[(P\wedge Q) \rightarrow R \quad \Longleftrightarrow\quad P\rightarrow
+(Q\rightarrow R).\]
+(Some authors call ded ``exportation'' (exp) and consider it an inference rule.)
+
+
+
+
+
+
+
+
+\end{document}
