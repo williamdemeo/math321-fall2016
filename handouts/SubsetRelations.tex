@@ -1,0 +1,83 @@
+% Example LaTeX document for GP111 - note % sign indicates a comment
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=1.5cm, left=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+%\usepackage{eucal}
+\usepackage{color,hyperref,enumerate}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\sB}{\ensuremath{\mathscr{B}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\mr}[1]{\ensuremath{\mathrel{#1}}}
+\newcommand{\lra}{\ensuremath{\longleftrightarrow}}
+\newcommand{\refine}{\ensuremath{\preccurlyeq}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+%\renewcommand{\subset}{\ensuremath{\subsetneq}}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+\textbf{Remarks on Subset Notation}
+\end{center}
+
+\noindent $A\subseteq B$ means that $A$ is a subset of $B$.  That is,
+\[
+(\forall x)(x\in A \longrightarrow x\in B)
+\]
+Notice that it is possible for $A$ to be equal to $B$ in this case.
+\\\\
+Some authors use the notation $A\subset B$ to mean that $A$ is a 
+subset of $B$ and $A\neq B$.  That is, both
+\[
+(\forall x)(x\in A \longrightarrow x\in B)\; \text{ \emph{and} }\; (\exists y)
+(y\in B \meet y\notin A ).
+\]
+\\
+In other words, $A\subset B$ means that $A$ is \emph{strictly} contained in $B$,
+so there is at least one element in $B$ that is not in $A$; whereas
+$A\subseteq B$ means that $A$ is contained in \emph{or equal to} $B$.
+\\\\
+This notation is completely analogous to notation you are already familiar with
+involving inequality.  $A\leq B$ means that $A$ is less than or equal to $B$,
+whereas $A< B$ means that $A$ is \emph{strictly} less than $B$.
+\\\\
+Unfortunately, there is at least one well known book that uses $\subset$ to mean ``subset or equal.''  So, personally, I never write $A\subset B$ because of the 
+confusion that this inconsistent usage has caused.
+Instead, on the rare occasions when I want to emphasize that a set is not only 
+a subset, but also a \emph{proper} subset, then I might use $A\subsetneqq B$.
+This means \emph{exactly the same thing} as
+what some authors denote by $A\subset B$.
+\\\\
+To summarize $A\subsetneqq B$ is equivalent to $(A\subseteq B) \wedge (A \neq B)$.
+(In fact, we might just write this conjunction if we want to be exceedingly 
+careful and clear.)
+\\\\
+Another equivalent way to say this is ``$A$ is a \emph{proper} subset of $B$.'' 
+Alternatively, ``$A$ is \emph{strictly} contained in $B$,'' which means the same thing.
+\\\\
+Finally, whenever you see a line through an \emph{entire} symbol, it means the
+negation of the statement involving that symbol without the line.  So, for example, 
+\begin{itemize}
+\item $a\notin A$ means that $a$ is not an element of
+$A$;
+\item $A\not \subset B$ means that $A$ is not a proper subset $B$;
+\item $A\nsubseteq B$ means that $A$ is not a subset nor equal to $B$.
+\end{itemize}
+
+\end{document}
+
