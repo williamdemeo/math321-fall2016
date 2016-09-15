@@ -1,0 +1,339 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage[usenames, dvipsnames]{color} % defines a new color
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Answer: }}
+
+%% How to print correct answer choices:
+   \CorrectChoiceEmphasis{\itshape\bfseries} %% <-- bold italics
+
+\pointsinmargin
+\pointpoints{pt}{pts}
+\marginpointname{pts}
+
+\makeatletter
+\newif\ifanswers
+\@ifclasswith{exam}{answers}{\answerstrue}{\answersfalse}
+\makeatother
+\newcommand{\scratchpage}{%
+  \ifanswers % do nothing
+  \else \newpage \thispagestyle{empty} \begin{center} -- scratch -- \end{center} \fi}
+
+\newcommand{\foo}{\ifanswers fooone\else footwo\fi}
+
+
+\usepackage{amsmath}
+\usepackage{amsthm,amssymb}
+\usepackage{mathtools}
+\usepackage{url,multicol,enumerate}
+\usepackage{tikz}
+\usepackage{comment}
+
+\theoremstyle{remark}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{prop}{Proposition}
+\newtheorem{problem}{Problem}
+\newtheorem*{prob}{Problem}
+\newtheorem*{answer}{{\bf Answer}}
+\newtheorem*{answers}{{\bf Answers}}
+\newtheorem*{explanation}{{\bf Explanation}}
+\newtheorem*{hint}{{\it Hint}}
+\newtheorem*{ex}{Exercise}
+
+
+%% Some of my personal macros... (remove these if you want)
+
+\newcommand{\R}{\ensuremath{\mathbb R}}
+\newcommand{\Z}{\ensuremath{\mathbb Z}}
+\newcommand{\N}{\ensuremath{\mathbb N}}
+
+\newcommand{\dotsize}{1pt}
+\newcommand{\Heq}{\ensuremath{ \; \stackrel{\mathrm{H}}{=}} \; }
+\newcommand{\disj}{\ensuremath{\vee}}
+\newcommand{\join}{\ensuremath{\vee}}
+\newcommand{\conj}{\ensuremath{\wedge}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\onlyif}{\ensuremath{\rightarrow}}
+\renewcommand{\iff}{\ensuremath{\leftrightarrow}}
+
+\pagestyle{foot}
+%%% Running footer will have a space for page score (if this is not the solution key)
+\ifanswers  %% do nothing
+\else
+\runningfooter{}{}{Score for this page: \makebox[1in]{\hrulefill} out of \pointsonpage{\thepage}}
+\fi
+
+\begin{document}
+
+\noindent {\bf MATH 321} 
+\hfill {\bf Homework 3 (due 9/28)} 
+\hfill  \ifanswers {\bf ANSWERS} \else {\bf NAME:}\phantom{XXXXXXXXXXXXX} \fi 
+
+  \renewcommand{\bigskip}{\vskip1cm}
+
+\begin{questions} % Begins the questions environment
+
+\pagestyle{foot}
+  
+  \question[3] %% 1
+  What is the truth value of each wff when the domain is the set
+  $\Z = \{\dots, -2, -1, 0, 1, 2, \dots \}$?\\[8pt]
+  {\it Example:} $(\forall x)(\forall y)(x < y \, \disj \, y< x)$\\[8pt]
+  {\it Answer:} FALSE.\\[4pt] 
+  {\it Reason:} $(\forall x)(\forall y)$ includes values for which $x=y$.
+  Alternatively, note that the negation of this statement is 
+  $(\exists x)(\exists y)(x=y)$, which is TRUE.
+  \\
+  \begin{parts}
+    \part $(\forall x)[x< 0 \onlyif (\exists y) (y>0 \conj x+y=0)]$
+    \part $(\exists x)(\exists y)(x^2 = y)$
+    \part $(\forall x)(x^2>0)$
+  \end{parts}
+  \medskip
+  \begin{enumerate}[(a)]
+  \item 
+    {\it Answer:}
+    \\[8pt]
+    {\it Reason:}
+  \item
+    \vskip15mm
+    {\it Answer:}
+    \\[8pt]
+    {\it Reason:}
+  \item
+    \vskip15mm
+    {\it Answer:}
+    \\[8pt]
+    {\it Reason:}
+  \end{enumerate}
+
+  \bigskip
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3] %% 2
+  Say which of the following are equivalent to the statement, \\
+    ``Cats are smarter than dogs.''    
+  \begin{parts}
+    \part Some cats are smarter than some dogs.
+    \part There is a cat that is smarter than all dogs.
+    \part All cats are smarter than all dogs.
+    \part Only cats are smarter than dogs.
+    \part All cats are smarter than any dog.
+  \end{parts}
+  \medskip
+  \noindent Just write down the correct letter(s); no explanation needed.
+  \medskip
+
+  \noindent {\bf Answer:} 
+
+  \newpage
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[4] %% 3
+
+  Give English translations of the following wffs, where \\
+
+  \begin{tabular}{lll}
+    $L(x,y)$ is ``$x$ loves $y$'',& $H(x)$ is ``$x$ is handsome'',
+    &$P(x)$ is ``$x$ is pretty'',\\
+    $M(x)$ is ``$x$ is a man'',& $W(x)$ is ``$x$ is a woman''&\\
+    $j$ is ``John'',& $k$ is ``Kathy'' &
+  \end{tabular}
+
+  \medskip
+
+  \begin{parts}
+    \part %[c.]
+    $(\forall x)(W(x) \onlyif (\forall y)[L(x,y) \onlyif M(y) \meet H(y)])$
+    \part  %[d.]
+    $(\exists x)[M(x) \meet H(x)  \meet L(x,k)]$
+    \part  %[e.]
+    $(\exists x)(W(x) \meet P(x) \meet (\forall y)[L(x,y) \onlyif H(y) \meet M(y)])$
+    \part  %[f.]
+    $(\forall x)[W(x) \meet P(x)  \onlyif L(j,x)]$
+  \end{parts}
+
+  \medskip
+
+  \noindent {\bf Answer:}
+  \begin{enumerate}[(a)]
+    \item %[c.]
+    \vskip5mm
+    \item %[d.]
+    \vskip25mm
+    \item %[e.]
+    \vskip25mm
+    \item %[f.]
+    \vskip25mm
+  \end{enumerate}
+
+  \newpage
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[4] %% 4
+  Give interpretations to prove that each of the following wffs is not valid.
+  \\[8pt]
+  {\it Example:} $(\forall x)(\exists y)P(x,y) \onlyif (\exists x)(\forall y)P(x,y)$
+  \\[8pt]
+  {\it Answer:} 
+  Recall, to prove an implication is not valid, find 
+  an interpretation for which the antecedent is true and the consequent is false.
+  Let the universe of discourse be the set of integers, $\Z$.  
+  Let $P(x,y)$ denote $x<y$.  Then the antecedent
+  $(\forall x)(\exists y)P(x,y)$ is true since for each (fixed) $x\in \Z$ we 
+  can find a $y\in \Z$ such that $x<y$. (For example, pick $y = x+1$.)
+  However, the consequent $(\exists x)(\forall y)P(x,y)$ is false since it is 
+  impossible to find a single $x$ for which $x<y$ holds for all $y\in \Z$.
+  \\
+  \begin{parts}
+    \part %[c.]
+    $(\forall x)[P(x) \onlyif Q(x)]\onlyif [(\exists x)P(x)\onlyif (\forall x)Q(x)]$
+    \\
+    \part %[d.]
+    $(\forall x)[\neg A(x)]\iff \neg[(\forall x)A(x)]$
+  \end{parts}
+  \medskip
+  \noindent {\bf Answer:} 
+  \begin{enumerate}[(a)]
+  \item
+  \item
+    \vskip6cm
+  \end{enumerate}
+
+  \newpage
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[4] %% 5
+  Describe each of the following sets by listing its elements.
+  (If the set is infinite, list a few of its members followed by an ellipsis, $\dots$.)
+  \\[8pt]
+  {\it Example:} $\{x\in \N \mid  x^2-5x+6=0\}$
+  \\[8pt]
+  {\it Answer:} 
+  The equation $x^2-5x+6=0$ holds if and only if $(x-2)(x-3) = 0$ 
+  if and only if $x=2$ or $x=3$. Therefore,  
+  $\{ x\in \N \mid  x^2-5x+6=0\} = \{2, 3\}$.
+  \\
+  \begin{parts}
+    \part $\{ x\in \N \mid (\exists q)(q \in \{2, 3\}\, \conj\, x = 2q)\}$.
+    \part
+    $\{x\in \N \mid (\exists y)(\exists z)(y \in \{0, 1\} \, \conj \,
+    z \in \{3, 4\}\, \conj\,  y<x<z)\}$.
+    \part $\{x \mid x \in \R \, \conj \,  x^2=7\}$
+    \part $\{ x \in \N \mid (\forall y)(y \text{ even} \rightarrow x\neq y)\}$.
+    % \part $\{ x \mid x\in \N \text{ and } x^2-2x-8=0\}$
+  \end{parts}
+
+  {\bf Answer:} 
+  \begin{enumerate}[(a)]
+  \item
+  \item
+    \vskip3cm
+  \item
+    \vskip3cm
+  \item
+    \vskip3cm
+  \end{enumerate}
+
+  \newpage
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[5] %% 6
+  What is the cardinality of each of the following sets?
+  \begin{parts}
+    \part $A = \{a, \{a, \{a\}\}\}$.
+    \part $B = \{\{a\}, \{\{a\}\}\}$.
+    \part $C = \{\emptyset \}$.
+    \part $D = \{a, \{\emptyset\}, \emptyset\}$.
+    \part $E = \{a, \{ \emptyset, \{ \emptyset \} \}, \{\emptyset, \{ \emptyset, \{ \emptyset\}\}\}\}$.
+  \end{parts}
+
+  {\bf Answer:} 
+  \begin{enumerate}[(a)]
+  \item
+  \item
+    \vskip3cm
+  \item
+    \vskip3cm
+  \item
+    \vskip3cm
+  \item
+    \vskip3cm
+  \end{enumerate}
+
+  \newpage
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[4] %% 7
+  Let 
+  \[
+    A = \{a, \{a\}, \{\{a\}\}\}; \quad\qquad B = \{a\}; \quad\qquad C = \{\emptyset, \{a,\{a\}\}\}.
+  \]
+  Say which statements are TRUE and which are FALSE?  For those that are FALSE, where do they fail?
+
+  \begin{tabular}{lll}
+    a. $B \subseteq A$  \phantom{XXXXXXXXX}& d. $\emptyset \subseteq C$\phantom{XXXXXXXXX}       & g. $ \{a, \{a\}\}\subseteq A$\\
+    b. $B \in A$  & e. $\emptyset \in C$   & h. $ B\subseteq C$\\
+    c. $C \subseteq A$  & f. $ \{a, \{a\}\}\in A$   & i. $ \{\{a\}\}\subseteq A$
+  \end{tabular}
+
+  {\bf Answer:} 
+  \begin{enumerate}[(a)]
+  \item
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \item
+    \vskip1.2cm
+  \end{enumerate}
+
+  \newpage
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3] %% 8
+  Write TRUE if the statement is true for \emph{all} sets $A$, $B$, and $C$. 
+  Write FALSE otherwise.  If a statement is false, give a counterexample.
+  \begin{parts}
+    % \part %[g.] 
+    % $\{\emptyset\} = \{\{\emptyset\}\}$
+    \part %[h.] 
+    If $A \subset B$ and $B\subseteq C$, then $A\subset C$.
+    \part %[i.] 
+    If $A \neq B$ and $B\neq C$, then $A\neq C$.
+    \part %[j.] 
+    If $A \in B$ and $B\nsubseteq C$, then $A \notin C$.
+  \end{parts}
+  
+  {\bf Answer:} 
+  \begin{enumerate}[(a)]
+  \item
+  \item
+    \vskip4cm
+  \item
+    \vskip4cm
+  \end{enumerate}
+
+\end{questions}
+
+\newpage
+\thispagestyle{empty}
+
+{\large \begin{center} \gradetable[v] \end{center}  }
+
+
+\end{document}
+
+
+
+
+
