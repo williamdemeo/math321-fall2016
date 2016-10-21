@@ -1,0 +1,358 @@
+%%% Uncomment only one of the next two lines (depending on whether you want the answers printed)
+\documentclass[fleqn,addpoints,12pt]{exam}
+%%\documentclass[answers,addpoints,12pt]{exam}
+% \documentclass[addpoints,12pt]{exam}
+
+\usepackage[usenames, dvipsnames]{color} % defines a new color
+%\definecolor{SolutionColor}{rgb}{0.8,0.9,1} % light blue
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Answer: }}
+
+%% How to print correct answer choices:
+   \CorrectChoiceEmphasis{\itshape\bfseries} %% <-- bold italics
+
+\pointsinmargin
+\pointpoints{pt}{pts}
+\marginpointname{pts}
+
+\makeatletter
+\newif\ifanswers
+\@ifclasswith{exam}{answers}{\answerstrue}{\answersfalse}
+\makeatother
+
+\newcommand{\foo}{\ifanswers fooone\else footwo\fi}
+
+%% Change geometry if you want:
+%% \usepackage[top=2cm, left=2cm,right=2cm,bottom=1cm]{geometry}%
+
+\usepackage{amsmath}
+\usepackage{amsthm,amssymb}
+\usepackage{mathtools}
+\usepackage{url,multicol,enumerate}
+\usepackage{tikz}
+\usepackage{comment}
+
+\theoremstyle{remark}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{prop}{Proposition}
+\newtheorem{problem}{Problem}
+\newtheorem*{prob}{Problem}
+\newtheorem*{answer}{{\bf Answer}}
+\newtheorem*{answers}{{\bf Answers}}
+\newtheorem*{explanation}{{\bf Explanation}}
+\newtheorem*{hint}{{\it Hint}}
+\newtheorem*{ex}{Exercise}
+
+
+%% Some of my own personal favoriate macros... (remove these if you want)
+
+\newcommand{\Ran}{\ensuremath{\operatorname{Ran}}}
+\newcommand{\Dom}{\ensuremath{\operatorname{Dom}}}
+\newcommand{\Eq}{\ensuremath{\operatorname{Eq}}}
+\newcommand{\sF}{\ensuremath{\mathcal{F}}}
+\newcommand{\sP}{\ensuremath{\mathcal{P}}}
+\newcommand{\R}{\ensuremath{\mathbb R}}
+\newcommand{\mr}[1]{\ensuremath{\mathrel{#1}}}
+\newcommand{\lra}{\ensuremath{\leftrightarrow}}
+\newcommand{\Z}{\ensuremath{\mathbb Z}}
+\newcommand{\N}{\ensuremath{\mathbb N}}
+
+\newcommand{\dotsize}{1pt}
+\newcommand{\Heq}{\ensuremath{ \; \stackrel{\mathrm{H}}{=}} \; }
+\newcommand{\disj}{\ensuremath{\vee}}
+\newcommand{\join}{\ensuremath{\vee}}
+\newcommand{\conj}{\ensuremath{\wedge}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\onlyif}{\ensuremath{\rightarrow}}
+\renewcommand{\iff}{\ensuremath{\leftrightarrow}}
+
+% \pagestyle{foot}
+%%% Running footer will have a space for page score (if this is not the solution key)
+\ifanswers  %% do nothing
+\else
+\footer{}{}{Score for this page: \makebox[1in]{\hrulefill} out of \pointsonpage{\thepage}}
+\fi
+
+\begin{document}
+
+\noindent {\bf MATH 321} 
+\hfill {\bf Homework 5 (due 11/2)} 
+\hfill  \ifanswers {\bf ANSWERS} \else {\bf NAME:}\phantom{XXXXXXXXXXXXX} \fi 
+
+  \renewcommand{\bigskip}{\vskip1cm}
+
+\pagestyle{foot}
+
+\begin{questions} % Begins the questions environment
+
+% \pagestyle{foot}
+  
+  %% Ex 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[2] (V 4.1.2) 
+  What are the truth sets of the following statements? List a few elements
+  of each truth set.
+  \begin{parts}
+  \part ``$x$ lives in $y$,'' where $x$ ranges over the set $P$ of all people and $y$
+  ranges over the set $C$ of all cities.
+
+  \ifanswers \else \vskip30mm \fi
+
+  \part ``The population of $x$ is $y$,'' where $x$ ranges over the set $C$ of all
+  cities and $y$ ranges over $\N$.
+  \end{parts}
+
+  \medskip
+  \begin{solution}
+    \begin{enumerate}[(a)]
+    \item 
+    \end{enumerate}
+  \end{solution}
+
+  \ifanswers \vskip1cm \else \vskip30mm \fi
+
+  %% Ex 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[2] (V 4.1.10)\\[4pt]
+  Prove that for any sets $A$, $S$, $C$, and $D$, if $A \times B$ and $C \times D$ are disjoint,
+  then either $A$ and $C$ are disjoint or $B$ and $D$ are disjoint.
+  \medskip
+  \begin{solution}
+  \end{solution}
+
+  \ifanswers \vskip1cm \else \newpage \fi
+
+  %% Ex 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3] (V 4.2.9)
+  Suppose $R$ and $S$ are relations from $A$ to $B$. Must the following statements
+  be true? Justify your answers with proofs or counterexamples.
+  \begin{parts}  
+    \part  $R \subseteq \Dom(R) \times \Ran(R)$.
+    \part  If $R \subseteq S$ then $R^{-1} \subseteq S^{-1}$.
+    \part  $(R\cup S)^{-1} = R^{-1}\cup S^{-1}$.
+  \end{parts}
+  \medskip
+  \begin{solution}  \end{solution}
+  \ifanswers \vskip1cm \else \newpage \fi
+
+
+  %% Ex 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[4] % 4.1.2
+  For each of the following binary relations $\rho$ on $\Z$, decide which of the
+  given ordered pairs belong to $\rho$. 
+  \begin{parts}  
+  \part $x\mr{\rho} y \lra x\mr{\mid}y$; $(2,6), (3,5), (8,4), (4,8)$
+  \part $x\mr{\rho} y \lra x$ and $y$ are relatively prime; $(5,8), (9,16), (6,8), (8,21)$
+  \part $x\mr{\rho} y \lra \mathrm{gcd}(x,y)=7$; $(28,14), (7,7), (10,5), (21,14)$
+  \part $x\mr{\rho} y \lra x^2 + y^2 = z^2$ for some integer $z$; $(1,0), (3,9), (2,2), (3,4)$
+  \part $x\mr{\rho} y \lra x$ is a Fibonacci number; $(4,3), (7,6), (7,12), (20,20)$
+  \end{parts}
+  \medskip
+ {\it Example:} (a) $\{(2,6),(4,8)\}\subseteq \rho$. 
+  (Present your answers in the same format.)\\[4pt] 
+{\bf Answers:}
+    \begin{enumerate}[(a)]
+      \setcounter{enumi}{1}
+    \item ~\\[7pt]
+    \item ~\\[7pt]
+    \item ~\\[7pt]
+    \item ~\\[7pt]
+    \end{enumerate}
+  \begin{solution}  
+    \begin{parts}
+      \part 
+    \end{parts}
+  \end{solution}
+  % \ifanswers \vskip1cm \else \vskip6cm \fi
+
+
+  %% Ex 9 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3]
+  \label{Ex:9} % 4.1.10
+  Let $S = \{0, 1, 2, 4, 6\}$.  Test the following binary
+  relations on $S$ for reflexivity, symmetry, antisymmetry, and transitivity.
+  \begin{parts}
+    \part $\rho = \{ (0,0), (1,1), (2,2), (4,4), (6,6), (0,1), (1,2), (2,4), (4,6)\}$
+    \part $\rho = \{ (0,1), (1,0), (2,4), (4,2), (4,6), (6,4)\}$
+    \part $\rho = \{ (0,1), (1,2), (0,2), (2,0), (2,1), (1,0), (0,0), (1,1), (2,2)\}$
+    % \part $\rho = \{ (0,0), (1,1), (2,2), (4,4), (6,6), (4,6), (6,4)\}$
+    \part $\rho = \emptyset$
+  \end{parts}
+  \medskip
+  Example: (a) reflexive, antisymmetric.
+  (Present your answers in the same format.)\\[4pt] 
+  {\bf Answers:}
+    \begin{enumerate}[(a)]
+      \setcounter{enumi}{1}
+    \item ~\\[7pt]
+    \item ~\\[7pt]
+    \item ~\\[7pt]
+    \end{enumerate}
+
+  \medskip
+
+  \begin{solution} 
+  \begin{parts}
+    \part 
+  \end{parts}
+  \end{solution}
+  \ifanswers \vskip1cm \else \newpage \fi
+
+  %% Ex 15 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[2] % 4.1.17
+  Find the reflexive, symmetric, and transitive closure of
+  each of the relations in the last two parts of Exercise~\ref{Ex:9}.
+
+  \smallskip
+
+  {\it Example Solution:}
+  (a) reflexive closure$(\rho) = \rho$;\\[5pt]
+      symmetric closure$(\rho) = \rho \cup \{(1,0), (2,1), (4,2), (6,4)\}$;\\[5pt]
+      transitive closure$(\rho) = \rho \cup \{(0,2), (1,4), (2,6), (0,4), (0,6), (1,6)\}$.\\[10pt]
+  {\bf Answers:}
+    \begin{enumerate}[(a)]
+      \setcounter{enumi}{2}
+    \item ~\\[2cm]
+    \item
+    \end{enumerate}
+
+  \begin{solution}   
+    \begin{parts} 
+      \part 
+    \end{parts}
+  \end{solution}
+  \ifanswers \vskip1cm \else \vskip3cm \fi
+
+
+  %% Ex 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[2] (V 4.3.5)
+  The following diagram shows two relations $R$ and $S$. Find $S \circ R$.
+  \begin{center}
+    \includegraphics[height=2.25in]{V-4-3-5}
+  \end{center}
+  \medskip
+  \begin{solution}  \end{solution}
+  \ifanswers \vskip1cm \else \newpage \fi
+
+
+
+  %% Ex 10 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3] (V 4.4.2)
+  In each case, say whether or not $R$ is a partial order on $A$. If so, is it a
+  total order?
+  \begin{parts}
+    \part $A = $ the set of all words of English, 
+    $R = \{(x, y) \in A \times A \mid $ the word
+      $y$ occurs at least as late in alphabetical order as the word $x\}$.
+    \part $A = $ the set of all words of English, 
+    $R = \{(x, y) \in A \times A \mid $ the first
+      letter of the word $y$ occurs at least as late in the alphabet as the first
+      letter of the word $x\}$.
+    \part $A = $ the set of all countries in the world, 
+    $R = \{(x, y) \in A \times A \mid $ the population of the country $y$ 
+      is at least as large as the population of the country $x\}$.
+  \end{parts}
+  \medskip
+  \begin{solution}  \end{solution}
+  \ifanswers \vskip1cm \else \newpage \fi
+
+
+
+  %% Ex 14 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question[3] % 4.1.23
+  Draw the Hasse diagram for each of the partially ordered sets.
+  \begin{parts}
+  \item $S = \{a, b, c\}$,\\
+    $\rho = \{ (a,a), (b,b), (c,c), (a,b), (b,c), (a,c)\}$.
+  \item $S = \{a, b, c, d\}$,\\
+    $\rho = \{ (a,a), (b,b), (c,c), (d,d), (a,b), (a,c)\}$.
+  \item $S = \{\emptyset, \{a\}, \{a, b\}, \{c\}, \{a, c\}, \{b\}\}$, \\
+    $\rho = \; \subseteq$.  That is,
+    $A \mr{\rho} B \lra A\subseteq B$.
+  \end{parts}
+  \medskip
+  \begin{solution}
+  \end{solution}
+  \ifanswers \vskip1cm \else \newpage \fi
+
+\thispagestyle{empty}
+\begin{center}
+{\bf Recommended Exercises}
+\end{center}
+The remaining exercises in this assignment are recommended but will not be
+graded.  Students are encouraged to solve these problems and ask questions
+about them.  We will solve some of them in class.
+  %% Ex 16 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.6.2)
+  Find the set $\Eq(A)$ of all equivalence relations on the 
+  set $A = \{1, 2, 3\}$ and draw the Hasse diagram of the subset 
+  inclusion relation on $\Eq(A)$.
+  \medskip
+  \begin{solution}  \end{solution}
+%  \ifanswers \vskip1cm \else \newpage \fi
+
+\bigskip
+
+  %% Ex 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.2.10) %\emph{recommended exercise}\\[4pt]
+  Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$.
+  Prove that $S \circ R = \emptyset$ iff $\Ran(R)$ and $\Dom(S)$ are disjoint.
+
+  \medskip
+
+  \begin{solution}  \end{solution}
+  % \ifanswers \vskip1cm \else \newpage \fi
+
+  \bigskip
+  %% Ex 8 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.3.18)
+  Suppose $R$ and $S$ are transitive relations on $A$. Prove that if 
+  $S \circ R \subseteq R\circ S$, then $R\circ S$ is transitive.
+  \medskip
+  \begin{solution}  \end{solution}
+  % \ifanswers \vskip1cm \else \newpage \fi
+
+  \bigskip
+
+  %% Ex 11 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.4.17)  %\emph{recommended exercise}\\[4pt]
+  If a subset of a partially ordered set has exactly one minimal element,
+  must that element be a smallest element? Give either a proof or a counter
+  example to justify your answer.
+  \medskip
+  \begin{solution}  \end{solution}
+  % \ifanswers \vskip1cm \else \newpage \fi
+
+  \bigskip
+
+  %% Ex 12 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.4.23)
+  Prove the following \\[4pt]
+  {\bf Theorem 4.4.11}
+    Suppose $A$ is a set, $\sF \subseteq \sP(A)$, and $\sF \neq \emptyset$. 
+    Then the least upper bound of $\sF$ (in the subset partial order) is 
+    $\cup \sF$ and the greatest lower bound of  $\sF$ is  $\cap \sF$.
+  \medskip
+  \begin{solution}  \end{solution}
+  % \ifanswers \vskip1cm \else \newpage \fi
+
+  \bigskip
+
+  %% Ex 17 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+  \question (V 4.6.19)  % \emph{recommended exercise}\\[4pt]
+  Suppose $R$ and $S$ are equivalence relations on a set $A$. Let 
+  $T = R\cap S$.
+  \begin{parts}
+    \part Prove that $T$ is an equivalence relation on $A$.
+    \part Prove that for all $x \in A$, $[x]_T = [x]_R \cap [x]_S$.
+    % \part Prove that $A/T = (A/R) \cdot (A/S)$. 
+    % (See exercise 17 for the meaning of the notation used here.)
+  \end{parts}
+  \medskip
+  \begin{solution}  
+    \begin{parts}  \part   \end{parts}
+  \end{solution}
+\end{questions}
+{\large \begin{center} \gradetable[v][pages] \end{center}  }
+% {\large \begin{center} \gradetable[v] \end{center}  }
+\thispagestyle{empty}
+
+\end{document}
